@@ -17,7 +17,7 @@ namespace Tyuiu.IvanovSI.Sprint1.Task0.V7
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #1                                                                *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                         *");
-            Console.WriteLine("* Задания #1                                                               *");
+            Console.WriteLine("* Задания #0                                                               *");
             Console.WriteLine("* Вариант #7                                                               *");
             Console.WriteLine("* Выполнил: Иванов Семён Иванович | РПСб-23-1                              *");
             Console.WriteLine("****************************************************************************");
