@@ -13,9 +13,9 @@ namespace Tyuiu.IvanovSI.Sprint1.Task2.V23.Test
             DataService ds = new DataService();
 
             int min = 10;
-            int sec = 60;
+            
 
-            int res = ds.Calc(min,sec);
+            int res = ds.ConvertMinutesToSeconds(min);
             Assert.AreEqual(res, 600);
         }
     }

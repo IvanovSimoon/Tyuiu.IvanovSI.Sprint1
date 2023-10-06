@@ -29,19 +29,19 @@ namespace Tyuiu.IvanovSI.Sprint1.Task2.V23
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
 
-            int min,sec;
+            int min;
 
             Console.WriteLine("Введите значение min в минутах:");
             min = Convert.ToInt32(Console.ReadLine());
             
-            sec = 60;
+            
             
 
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("****************************************************************************");
 
-            Console.WriteLine(ds.Calc(min,sec));
+            Console.WriteLine(ds.ConvertMinutesToSeconds(min));
 
             Console.ReadLine();
         }

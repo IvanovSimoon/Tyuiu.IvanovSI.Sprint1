@@ -7,11 +7,11 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.IvanovSI.Sprint1.Task2.V23.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task2V23
     {
-        public int Calc(int min, int sec)
+        public int ConvertMinutesToSeconds(int value)
         {
-            return min * sec;
+            return value * 60;
         }
     }
 }
