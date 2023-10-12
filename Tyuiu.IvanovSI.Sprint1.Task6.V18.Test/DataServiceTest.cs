@@ -12,7 +12,7 @@ namespace Tyuiu.IvanovSI.Sprint1.Task6.V18.Test
             DataService ds = new DataService();
             string s = "123";
             int o = 0;
-            Assert.AreEqual(true,ds.CheckNumber(s));
+            Assert.AreEqual(true,ds.CheckNumber(s)); 
         }
     }
 }
